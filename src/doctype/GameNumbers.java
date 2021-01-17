@@ -34,6 +34,7 @@ public class GameNumbers {
                 System.out.println("Niestety, moja liczba jest większa!");
             }
         } while (myAnswer != drawnNumber);
+        // exit from loop to draw result
         System.out.print("Brawo " + myName + "! Liczba " + myAnswer + " jest poprawna!");
         if (sex.equals("k")) {
             System.out.print(" Zgadłaś");
